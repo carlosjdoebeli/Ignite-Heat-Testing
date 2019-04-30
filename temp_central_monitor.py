@@ -53,7 +53,7 @@ def readTrial():
     start = time.perf_counter()
     line =  str(ser.readline())
     while not "FINISH" in line:
-        print(line)
+        # print(line)
         nums = re.findall('-?\d+\.?\d*', line)
 
         if "DATA" in line:
@@ -147,7 +147,7 @@ while True:
         print("DONE")
         break
     else:
-        print(line)
+        # print(line)
 
 start = time.perf_counter()
 while True and time.perf_counter() - start < 3:
