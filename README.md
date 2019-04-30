@@ -30,4 +30,6 @@ The graph will be located in the folder:
 Where rootdir is the directory the script is being run from, test_desc is the inputted test description, and sensor_label refers to the 
 labels assigned to each temperature sensor. 
 
+The data files will have Force or Current appended to the file name, and the created files will have a timestamp in the file name. 
+
 There are several commented-out print statements. For debugging, these may be useful when uncommented. 
