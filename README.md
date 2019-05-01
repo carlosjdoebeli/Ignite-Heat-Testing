@@ -32,4 +32,4 @@ labels assigned to each temperature sensor.
 
 The data files will have Force or Current appended to the file name, and the created files will have a timestamp in the file name. 
 
-There are several commented-out print statements. For debugging, these may be useful when uncommented. 
+There are several commented-out print statements. For debugging, these may be useful when uncommented. Further information on the test can be seen at https://docs.google.com/document/d/1ZP10a9W2CUyuAZZHCV1V_BpajsRwdHcOw3EkF9_HjlA/edit. 
